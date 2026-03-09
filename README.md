@@ -1,58 +1,115 @@
-# MERN Social Media App
+# MERN Social Media Application
 
-This is a social media app built using the MERN stack. It includes authentication, posts, likes, comments, and follows.
+A full-stack social media web application built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
+The platform allows users to create accounts, share posts, interact with other users, and build a social network.
 
-## Screenshots
+---
 
-### Home Page
-![Home Page](./images/home.png)
+## 🚀 Features
 
-### Profile Page
-![Profile Page](./images/singup.png)
+* User authentication (Register / Login)
+* Create, edit, and delete posts
+* Like and comment on posts
+* Follow and unfollow users
+* User profile pages
+* Responsive UI for desktop and mobile
 
+---
 
-## Features
+## 🛠 Tech Stack
 
-- Authentication
-- Posts
-- Likes
-- Comments
-- Follows
+**Frontend**
 
-## Technologies
+* React.js
+* Axios
+* React Router
 
-- MongoDB
-- Express
-- React
-- Node.js
+**Backend**
 
-## Installation
+* Node.js
+* Express.js
 
-1. Clone the repository
-```bash
-git clone https://github.com/imabhinavdev/mern-social-media.git
+**Database**
+
+* MongoDB
+* Mongoose
+
+---
+
+## 📂 Project Structure
+
+```
+mern-social-media
+│
+├── client
+│   ├── src
+│   ├── components
+│   ├── pages
+│
+├── server
+│   ├── models
+│   ├── controllers
+│   ├── routes
+│
+└── README.md
 ```
 
-2. Install dependencies
-```bash
-cd mern-social-media
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```
+git clone https://github.com/yourusername/mern-social-media.git
 ```
 
-3. Install server dependencies
-```bash
+### Install backend dependencies
+
+```
 cd server
 npm install
 ```
 
-4. Install client dependencies
-```bash
+### Install frontend dependencies
+
+```
 cd client
 npm install
 ```
 
-5. Run the app
-```bash
+---
+
+## ▶️ Run the Application
+
+Start backend:
+
+```
 cd server
-npm run start
+npm start
 ```
 
+Start frontend:
+
+```
+cd client
+npm start
+```
+
+---
+
+---
+
+## 📌 Future Improvements
+
+* Real-time notifications
+* Messaging system
+* Image upload for posts
+* Dark mode support
+
+---
+
+## 👨‍💻 Author
+
+Harish Kumar
+Full-Stack Developer
