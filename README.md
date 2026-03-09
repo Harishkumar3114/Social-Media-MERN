@@ -61,7 +61,7 @@ mern-social-media
 ### Clone the repository
 
 ```
-git clone https://github.com/yourusername/mern-social-media.git
+git clone repu_url
 ```
 
 ### Install backend dependencies
